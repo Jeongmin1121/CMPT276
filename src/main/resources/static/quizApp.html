@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/quizApp.css">
+    <script src="/js/quizLogic.js" defer></script>
+    <title>Interactive Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>Interactive Quiz</h1>
+        <p>Welcome to the CMPT 276 Assignment 1</p>
+    </header>
+
+    <section class="questions">
+        <article>
+            <h1 id="qnum">Question Number</h1>
+            <p id= "question">This is the first section of your cool website. Feel free to add more content here.</p>
+        </article>
+    </section>
+
+    <section class="Choices">
+        <div>
+            <button class ="answerChoices"  id="answer1">
+                <h3>Choice 1</h3>
+                <p id="answerDescription1">Answer choice number 1</p>
+            </button>
+        </div>
+
+        <div>
+            <button class ="answerChoices"  id="answer2">
+                <h3>Choice 2</h3>
+                <p id="answerDescription2">Answer choice number 2</p>
+            </button>
+        </div>
+
+        <div>
+            <button class ="answerChoices"  id="answer3">
+                <h3>Choice 3</h3>
+                <p id="answerDescription3">Answer choice number 3</p>
+            </button>
+        </div>
+
+        <div>
+            <button class ="answerChoices"  id="answer4">
+                <h3>Choice 4</h3>
+                <p id="answerDescription4">Answer choice number 4</p>
+            </button>
+        </div>
+    </section>
+
+    <section class="navigationButtons">
+        <button id="previousButton">Previous</button>
+        <button id="nextButton">Next</button>
+    </section>
+        <button id="submitButton">Submit</button>
+    
+    <section id="results">
+        <h1 id="resultsTitle">Results</h1>
+        <p id="score">Your results will be displayed here after you submit it</p>
+        <p id="resultDescription">When it is complete check your mistakes by going back to the questions</p> <br>
+
+    </section>
+    <footer>
+        <p>&copy; 2024 Jeongmin Lee's Quiz App. CMPT 276 Assignment 1.</p>
+    </footer>
+</body>
+</html>

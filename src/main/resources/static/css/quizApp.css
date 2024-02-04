@@ -1,0 +1,119 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.Choices {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: gray;
+}
+
+.questions {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 20px 20px 20px 20px;
+}
+
+article {
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px;
+    flex: 1;
+}
+
+.answerChoices {
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px;
+    width: 200px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#previousButton {
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px;
+    width: 200px;
+    float: left; /* Add this line to align the button to the left */
+}
+
+#nextButton {
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px;
+    width: 200px;
+    float: right; /* Add this line to align the button to the right */
+}
+
+#submitButton {
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    margin: 10px auto; /* Center the button horizontally */
+    width: 200px;
+    display: block; /* Add this line to make the button a block element */
+}
+
+.selected {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.correctAnswer {
+    background-color: #f89602;
+    color: white;
+}
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+
+
+#results {
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px;
+    text-align: center;
+    margin-bottom: 1000px;
+}
+body {
+    background-color: gray;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
